@@ -1,6 +1,6 @@
 // eslint.config.cjs
-const js = require("@eslint/js");
-const globals = require("globals");
+const js = require('@eslint/js');
+const globals = require('globals');
 
 module.exports = [
   js.configs.recommended,
@@ -14,10 +14,10 @@ module.exports = [
       },
     },
     rules: {
-      "no-unused-vars": "warn",
-      "no-console": "off",
-      "semi": ["error", "always"],
-      "quotes": ["error", "single"],
+      'no-unused-vars': 'warn',
+      'no-console': 'off',
+      'semi': ['error', 'always'],
+      'quotes': ['error', 'single'],
     },
   },
 ];
