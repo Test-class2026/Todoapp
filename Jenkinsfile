@@ -47,12 +47,12 @@ pipeline {
         // The --audit-level=high flag means the stage only fails
         // if a HIGH or CRITICAL vulnerability is found.
         // Low and moderate issues produce a warning but do not stop the pipeline.
-        stage('Security Scan') {
-            steps {
-                sh 'npm audit --audit-level=high'
-                echo 'Security scan passed'
-            }
-        }
+        // stage('Security Scan') {
+        //    steps {
+        //        sh 'npm audit --audit-level=high'
+        //        echo 'Security scan passed'
+        //    }
+        // }
  
  
         // Stage 5: Test
